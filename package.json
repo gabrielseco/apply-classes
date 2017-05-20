@@ -1,0 +1,27 @@
+{
+  "name": "apply-classes",
+  "version": "1.0.0",
+  "description": "Apply css classes dynamically",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Gabriel García Seco <ggarciaseco@gmail.com> (https://ggseco.com/)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^20.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gabrielseco/apply-classes.git"
+  },
+  "keywords": [
+    "css",
+    "react",
+    "classes"
+  ],
+  "bugs": {
+    "url": "https://github.com/gabrielseco/apply-classes/issues"
+  },
+  "homepage": "https://github.com/gabrielseco/apply-classes"
+}
