@@ -1,6 +1,6 @@
 {
   "name": "apply-classes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Apply css classes dynamically",
   "scripts": {
     "test": "jest"
