@@ -19,4 +19,12 @@ describe('Apply classes', function () {
       hidden: true
     })).toBe('notification hidden');
   });
+
+  it('should not generate spaces between classes', function() {
+    expect(applyClasses({
+      notification: true,
+      display: false,
+      hidden: true
+    })).toBe('notification hidden');
+  });
 });

@@ -9,6 +9,9 @@ var applyClasses = function (obj) {
     .map(function (key) {
       return obj[key] ? key : ''
     })
+    .filter(function(item) {
+      return item !== ''
+    })
     .join(' ')
     .trim();
 }

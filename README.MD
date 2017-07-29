@@ -13,13 +13,17 @@ A small utility to apply classes, the use case to use it is in React.
 ```
 
 ## Usage
+```js
+import applyClasses from 'apply-classes'
+```
+
 ```jsx
-  const Example = () => (
+const Example = () => (
     <div className={applyClasses({
       'example': true,
       'hidden': false
     })}></div>
-  )
+)
 ```
 
 It will render only the truthy conditions
